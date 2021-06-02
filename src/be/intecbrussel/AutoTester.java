@@ -4,13 +4,11 @@ public class AutoTester {
     public class AutoApp {
 
 
-
         public static void main(String[] args) {
 
             Auto auto = new Auto("VW GOLF", "BHZ456");
 
             System.out.println("Test van: " + auto);
-
 
 
             for (int i = 0; i < 30; i++) {
@@ -24,7 +22,6 @@ public class AutoTester {
             System.out.println("REMMEN");
 
             auto.rem();
-
 
 
             for (int i = 0; i < 3; i++) {
@@ -41,3 +38,4 @@ public class AutoTester {
 
         }
     }
+}
